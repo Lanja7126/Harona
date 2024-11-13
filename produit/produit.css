@@ -1,0 +1,123 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 100px;
+
+}
+
+.logo{
+    font-size: 1.5rem;
+    margin: .5rem;
+}
+.navbar-links ul{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+.navbar-links ul li{
+    list-style-type: none;
+}
+.navbar-links ul li a{
+    text-decoration: none;
+    color: #ffd700;
+    display: block;
+    padding: 2rem;
+}
+.navbar-links ul li a:hover{
+    background-color: #755;
+}
+.container{
+display: grid;
+grid-template-rows: repeat(5,250px);
+background-color: black;
+gap: 30px;
+}
+.container h1{
+    color: #ffd700;
+    margin-left: 75px;
+}
+.container p{
+    color: white;
+    margin-left: 45px;
+}
+.container a{
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0.234);
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    color: black;
+    float: right;
+    margin-right: 20px;
+
+}
+.container a:hover{
+    background-color: azure;
+}
+.bg{
+    background-color: rgba(18, 17, 17, 0.584);
+    padding-top: 10px;
+    padding-bottom: 110px;
+    
+}
+
+.outilsdetravail{
+    background-image: url(image/outils.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px; 
+}
+.outilsdetravail .bg{
+    padding-bottom: 126px;
+    border-radius: 20px;
+}
+.vetement .bg{
+    padding-bottom: 126px;
+    border-radius: 20px;
+}
+.technologie .bg{
+    padding-bottom: 115px;
+    border-radius: 20px;
+}
+.vetement{
+    background-image: url(image/vetement.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+.technologie{
+    background-image: url(technologie/technologie.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+.fourniture{
+    background-image: url(image/fouiture-scolaire.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;   
+}
+.autre{
+    background-image: url(image/autre.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    
+}
+footer{
+    text-align: center;
+    color: #ffd700;
+    background-color: #755;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
