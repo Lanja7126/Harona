@@ -1,3 +1,67 @@
+
+body{
+    margin:auto;
+    width:650px;
+    background-color:#be9226;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 300px;
+    height: 250px;
+    background-image:linear-gradient(rgb(155, 149, 149),brown);
+}
+.div2{
+    display: flex;
+}
+.test1{
+     border: solid;
+     width:300px;
+     height:250px;
+     color: rgb(34, 49, 63);
+}
+.test2{
+    border:solid;
+    width: 300px;
+    height: 250px;
+    margin-left:50px;
+    color:rgb(34, 49, 63) ;
+}
+.test3{
+    border:solid;
+    width: 300px;
+    height: 250px;
+    color:rgb(34, 49, 63) ;
+
+}
+.div3{
+    margin-top: 50px;
+    display: flex;
+    margin-right:100px;
+}
+.test4{
+    border:solid;
+    width: 300px;
+    height: 250px;
+    margin-left:50px;
+    color:rgb(34, 49, 63) ;
+}
+.test5{
+    border:solid;
+    width: 300px;
+    height: 250px;
+    color:rgb(34, 49, 63) ;
+}
+.test6{
+    border:solid;
+    width: 300px;
+    height: 250px;
+    margin-left:50px;
+    color:rgb(34, 49, 63) ;
+}
+
+
+=======
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Monoton&family=Poppins&display=swap');
 *{
@@ -318,3 +382,4 @@ body .contenue{
     height: 300px;
     border: solid black;
 }
+>>>>>>> 46845638ce929e79f4c19371037e468e9d2138a0
