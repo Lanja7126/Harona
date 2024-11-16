@@ -1,123 +1,166 @@
-body{
-    margin: 0px;
-    padding: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-    width: 100%;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Poppins&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body .contenue{
+    background:#b69438;
+    width: auto;
+    height: 150px;
 }
 .navbar{
     display: flex;
-    justify-content: space-between;
+}
+.logo img{
+    width: 150px;
+    height: 150px;
     align-items: center;
-    background-color: black;
-    color: white;
-    height: 100px;
-
 }
-
-.logo{
-    font-size: 1.5rem;
-    margin: .5rem;
-}
-.navbar-links ul{
-    margin: 0px;
-    padding: 0px;
+.Menu{
+    padding-top: 70px;
     display: flex;
+    margin-left: 200px;
+    
 }
-.navbar-links ul li{
-    list-style-type: none;
-}
-.navbar-links ul li a{
-    text-decoration: none;
-    color: #ffd700;
-    display: block;
-    padding: 2rem;
-}
-.navbar-links ul li a:hover{
-    background-color: #755;
-}
-.container{
-display: grid;
-grid-template-rows: repeat(5,250px);
-background-color: black;
-gap: 30px;
-}
-.container h1{
-    color: #ffd700;
-    margin-left: 75px;
-}
-.container p{
-    color: white;
-    margin-left: 45px;
-}
-.container a{
-    text-decoration: none;
-    background: rgba(255, 255, 255, 0.234);
-    font-size: 20px;
-    padding: 10px;
-    border-radius: 20px;
+.Menu a{
     color: black;
-    float: right;
-    margin-right: 20px;
-
+    text-decoration: none;
+    padding: 20px;
+    font-size: 17px;
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    font-style: normal;
 }
-.container a:hover{
-    background-color: azure;
+.Menu select{
+    border: none;
+    font-size: 15px;
+    background-color:#b69438;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+@media screen and(max-width:500px) {
+    .contenue{
+        display: none;
+    }
+    
+}
+.search{
+    align-items: center;
+}
+.search input{
+    padding: 15px;
+    margin-top: 80px;
+    border-radius: 30px;
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    font-style: normal;
+    color:black;
+    background-color: #eee9f09f;
+}
+.shop{
+    margin-top: 100px;
+    padding-left: 10px;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.nav2{
+    width: 150px;
+    height: 2500px;
+    background: azure;
+    background-color: black;
+}
+.list{
+    padding: 10px;
+    display: block;
+    
+}
+.ctn{
+    padding: 25px;
+}
+.ctn a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.ctn:hover{
+    background-color: #b69438b8;
+}
+.ctn a:hover{
+    color: aliceblue;
+}
+.bienvenue{
+    background: url(vtm.jpg);
+    width: 850px;
+    height: 400px;
+    background-size: cover;
+}
+.h1_1{
+    text-align: center;
 }
 .bg{
-    background-color: rgba(18, 17, 17, 0.584);
-    padding-top: 10px;
-    padding-bottom: 110px;
+    background-color: rgba(0, 0, 0, 0.444);
+    height: 400px;
+}
+.bg h1{
+    text-align: center;
+    color: #b69438;
+    top: 200px;
+    transition: 2s;
+    position: relative;
     
+}
+.bg h1:hover{
+    scale: 1.2;
+}
+.grid{
+    display: flex;
+}
+.row{
+    width: 400px;
+    height: 550px;
+    background-color:rgba(240, 255, 255, 0.711);
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.row:hover{
+    scale: 1.02;
+}
+.img{
+    width: 350px;
+    height: 400px;
+    margin: 25px;
+}
+h3,p{
+    text-align: center;
+}
+.rating{
+    margin-left: 160px;
+}
+.button{
+    width: 90px;
+    padding: 5px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 20px;
+    background-color: #000000;
+    color: #b69438;
+    margin-left: 160px;
+}
+.sweet{
+    width: 850px;
+    overflow: auto;
+    height: 580px;
+}
+.t-shirt{
+    width: 850px;
+    overflow: auto;
+    height: 580px;
 }
 
-.outilsdetravail{
-    background-image: url(image/outils.jpg);
-    background-position: center;
-    background-size: cover;
-    border-radius: 20px; 
-}
-.outilsdetravail .bg{
-    padding-bottom: 126px;
-    border-radius: 20px;
-}
-.vetement .bg{
-    padding-bottom: 126px;
-    border-radius: 20px;
-}
-.technologie .bg{
-    padding-bottom: 115px;
-    border-radius: 20px;
-}
-.vetement{
-    background-image: url(image/vetement.jpg);
-    background-position: center;
-    background-size: cover;
-    border-radius: 20px;
-}
-.technologie{
-    background-image: url(technologie/technologie.jpg);
-    background-position: center;
-    background-size: cover;
-    border-radius: 20px;
-}
-.fourniture{
-    background-image: url(image/fouiture-scolaire.jpg);
-    background-position: center;
-    background-size: cover;
-    border-radius: 20px;   
-}
-.autre{
-    background-image: url(image/autre.jpg);
-    background-position: center;
-    background-size: cover;
-    border-radius: 20px;
-    
-}
-footer{
-    text-align: center;
-    color: #ffd700;
-    background-color: #755;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-top: 10px;
-}
+
